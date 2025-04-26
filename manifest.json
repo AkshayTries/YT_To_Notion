@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Summary to Notion",
+    "version": "1.0",
+    "description": "Summarize YouTube videos using LLaMA2 and save to Notion.",
+    "permissions": ["scripting", "tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "host_permissions": ["*://*/*"]
+  }
+  
